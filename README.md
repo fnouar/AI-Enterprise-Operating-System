@@ -1,10 +1,16 @@
 # AI Enterprise Operating System (AI-EOS)
 
-> Building a vendor-neutral Enterprise Operating System for AI Organizations.
+This repository contains the executable implementation skeleton for the AI-EOS platform.
+
+## Getting Started
+
+1. Copy `.env.example` to `.env`.
+2. Run `./scripts/bootstrap.sh` to install dependencies and bootstrap the repository.
+3. Run `./scripts/start-local.sh` to launch the local development environment.
 
 ## Status
 
-🚧 Project under active architecture and research.
+This repository is now in implementation skeleton mode.
 
 ## Vision
 

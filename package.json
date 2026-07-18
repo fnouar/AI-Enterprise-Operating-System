@@ -1,0 +1,22 @@
+{
+  "name": "ai-eos",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "frontend/*",
+    "packages/*",
+    "sdk/*"
+  ],
+  "scripts": {
+    "bootstrap": "pnpm install",
+    "lint": "pnpm -C frontend lint",
+    "test": "pnpm -C frontend test",
+    "build": "pnpm -C frontend build",
+    "start": "pnpm -C frontend dev"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0"
+  }
+}
