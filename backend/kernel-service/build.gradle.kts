@@ -22,6 +22,8 @@ dependencies {
   implementation("org.postgresql:postgresql:42.6.0")
   implementation("org.jetbrains.kotlin:kotlin-reflect")
   testImplementation("org.springframework.boot:spring-boot-starter-test")
+  testRuntimeOnly("org.junit.platform:junit-platform-launcher:1.11.3")
+  testRuntimeOnly("com.h2database:h2")
 }
 
 tasks.withType<Test> {
